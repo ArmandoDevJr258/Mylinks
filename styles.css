@@ -100,9 +100,7 @@ p{
   .subBio{
     width: 100%;
   }
-  .MyImage { 
-    max-width: 200px;
- }
+
 }
 
 /* Styles for mobile (screen width ≤ 480px) */
