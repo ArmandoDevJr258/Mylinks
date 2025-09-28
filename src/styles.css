@@ -2,29 +2,40 @@ body{
     padding: 0px;
     margin: 0px;
     background-color: antiquewhite;
-    height: 1000px;
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-image: url(/images/dreamina-2025-09-23-8602-build\ an\ amime\ boy\ coding\ on\ it\'s\ comput....jpeg);
 }
 
 .imagebox{
-    width: 400px;
+    display: flex;
+    width: 80%;
     height: 300px;
-    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
 }
-.img1{
-    width:200;
-    height:200;
-    display: block;
+.MyImage{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.subBio{
+    width: 50%;
 }
 
 
 
 .links{
-    margin-top: 50px;
+    margin-top: 200px;
     justify-items: center;
   
 }
 
-.link{
+a{
     display: flex;
     width:300px;
     height: 50px;
@@ -33,12 +44,38 @@ body{
     flex-direction: row;
     justify-content: space-between;
     margin-top: 30px;
+    text-decoration: none;
+    
 }
 .socialImg{
     margin-top:18px;
     margin-left:20px;
 }
 .socialName{
-    margin-right: 150px;
+    margin-right: 130px;
+}
+.contactar{
+    margin-right: 70px;
+
 }
 
+ion-icon{
+    margin-top: 12px;
+    margin-left: 20px;
+    font-size: 25px;
+
+}
+
+h3{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+p{
+    color: black;
+}
+.b{
+    color: orange;
+}
