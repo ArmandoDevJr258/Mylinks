@@ -108,7 +108,9 @@ p{
   body {
     font-size: 14px;
   }
-
+.links{
+  margin-top: 250px;
+}
   .subBio{
     width: 80%;
   }
