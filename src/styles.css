@@ -1,0 +1,44 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: antiquewhite;
+    height: 1000px;
+}
+
+.imagebox{
+    width: 400px;
+    height: 300px;
+    justify-items: center;
+}
+.img1{
+    width:200;
+    height:200;
+    display: block;
+}
+
+
+
+.links{
+    margin-top: 50px;
+    justify-items: center;
+  
+}
+
+.link{
+    display: flex;
+    width:300px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.socialImg{
+    margin-top:18px;
+    margin-left:20px;
+}
+.socialName{
+    margin-right: 150px;
+}
+
