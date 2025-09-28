@@ -117,5 +117,6 @@ p{
     
   }
 
-  .MyImage { max-width: 150px; }
+  .MyImage {
+  border-radius: 50%; }
 }
